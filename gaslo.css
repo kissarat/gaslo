@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  font-family: Ubuntu, Verdana, Arial, Helvetica, sans-serif;
+}
+form > * {
+  display: block;
+  margin: 3mm auto;
+  width: 12cm;
+  border: 1px solid grey;
+  background: white;
+}
+input:active,
+textarea:active,
+input:hover,
+textarea:hover {
+  border-color: red;
+}
+button {
+  cursor: pointer;
+  background: gray;
+}
+button:hover {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+#back {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url('revolution/0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: blue;
+  opacity: 0.2;
+  z-index: -1;
+  -webkit-filter: grayscale(1);
+  -mozilla-filter: grayscale(1);
+  filter: grayscale(1);
+}
+ul {
+  width: 12cm;
+  list-style: none;
+  margin: 5mm auto;
+  padding: 5mm;
+}
+li {
+  padding: 2mm;
+  border-bottom: 1px solid black;
+}
+li > a {
+  text-decoration: none;
+  color: black;
+}
+li:hover {
+  background-color: red;
+}
+li > a:hover {
+  color: white;
+}

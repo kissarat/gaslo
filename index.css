@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Andika|Underdog|Comfortaa|New%20Rocker&subset=latin,cyrillic);
+body {
+  color: white;
+  background-color: black;
+  text-align: center;
+  background-image: url('back/0.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 4mm;
+}
+* {
+  font-family: Underdog, Ubuntu, Verdana;
+}
+#main {
+  width: 760px;
+  margin: auto;
+  min-height: 800px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4mm;
+}
+header {
+  font-size: 28pt;
+  font-family: 'New Rocker';
+  padding-top: 4mm;
+  vertical-align: middle;
+}
+header > img {
+  display: inline;
+  height: 160px;
+}
+header > * {
+  display: inline;
+  margin: 0 2mm;
+}
+/*header > div:first-child {
+  float: left;
+}
+
+header > div:last-child {
+  float: right;
+}*/
+nav > ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  padding: 4mm;
+}
+nav > ul > li {
+  display: inline;
+  border-bottom: 1px solid transparent;
+  margin: 2mm;
+}
+nav > ul > li:hover {
+  border-bottom-color: red;
+}
+nav > ul > li.current > a {
+  color: red;
+}
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+form > input,
+form > img {
+  display: block;
+  margin: 3mm;
+  border: white;
+}
+form > input {
+  width: 100%;
+}
+form {
+  width: 220px;
+  padding: 5mm;
+  margin: auto;
+}
+.error {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+.warning {
+  color: #ffff00;
+  border: 1px solid #ffff00;
+}
